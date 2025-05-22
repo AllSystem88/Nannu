@@ -16,9 +16,8 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
-YTPROXY_URL = getenv("YTPROXY_URL", 'http://tubed.okflix.top') ## E.G https://yt.okflix.
-YT_API_KEY = "freekey15052025"
-COOKIES_URL=getenv("COOKIES_URL" , "https://gist.githubusercontent.com/sparrow9616/f29fc6588086a3c72d92dd9c03773350/raw/4229f3f4aab4a6693fc0794d136d30f54d67ae85/gistfile1.txt")
+API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
+API_KEY = getenv("API_KEY", "30DxNexGenBots0d1419") # youtube song api key, get it from https://t.me/RahulTC
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 
