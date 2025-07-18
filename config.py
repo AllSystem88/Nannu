@@ -1,4 +1,4 @@
-import re
+import os
 from os import getenv
 
 from dotenv import load_dotenv
@@ -17,8 +17,8 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 # Vars For API End Pont.
-API_URL = int(getenv("API_URL", "https://tgmusic.fallenapi.fun"))
-API_KEY = getenv("ef4e80_qtqagWb9uWwn07HeeUsOFNeTqU2RN_Ej")
+API_URL = os.getenv("API_URL", "https://tgmusic.fallenapi.fun")
+API_KEY = os.getenv("ef4e80_qtqagWb9uWwn07HeeUsOFNeTqU2RN_Ej")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 
