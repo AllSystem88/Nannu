@@ -1,4 +1,3 @@
-import os
 import re
 from os import getenv
 
@@ -18,9 +17,8 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 # Vars For API End Pont.
-API_URL = os.getenv("API_URL", "https://tgmusic.fallenapi.fun")
-API_KEY = os.getenv("ef4e80_qtqagWb9uWwn07HeeUsOFNeTqU2RN_Ej")
-
+YTPROXY_URL = getenv("YTPROXY_URL", 'https://tgapi.xbitcode.com') ## E.G https://yt.okflix.
+YT_API_KEY = getenv("YT_API_KEY" , "xbit_0000113616736910986330" ) ## get your secret key from Deep
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 
 # Chat id of a group for logging bot's activities
