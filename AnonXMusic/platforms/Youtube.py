@@ -10,7 +10,7 @@ from pathlib import Path
 from typing import Any, Optional, Dict, Union
 
 from py_yt import Playlist, VideosSearch
-from pytdbot import types
+from pyrogram import types
 
 from AnonXMusic.logger import LOGGER
 
