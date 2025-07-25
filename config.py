@@ -18,7 +18,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 # Vars For API End Pont.
 YTPROXY_URL = getenv("YTPROXY_URL", 'https://tgapi.xbitcode.com') ## E.G https://yt.okflix.
-YT_API_KEY = getenv("YT_API_KEY" , "xbit_BHNV3FZ1MIMUSQADIBVQ7G" ) ## get your secret key from Deep
+YT_API_KEY = getenv("YT_API_KEY" , "xbit_EF0V2RDJG36GAWO9E1A7TB" ) ## get your secret key from Deep
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 
