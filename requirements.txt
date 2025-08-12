@@ -14,7 +14,7 @@ psutil
 py-tgcalls
 ntgcalls
 pykeyboard
-pyrofork
+kurigram
 python-dotenv
 pyyaml
 requests
