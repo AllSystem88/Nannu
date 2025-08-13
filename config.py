@@ -16,6 +16,14 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
+# API URL - here
+API_URL = getenv("API_URL", "https://tgmusic.fallenapi.fun")
+
+# API KEY - here
+API_KEY = getenv("API_KEY", "86278b_ssueajhR0D5XCET9n3HGIr0y57w2BZeR")
+
+# For - downloads
+DOWNLOADS_DIR = "downloads"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 
